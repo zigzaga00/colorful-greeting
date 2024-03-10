@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>a colourful greeting</title>
+    <style>
+        #output {
+            color: black;
+            text-align: center;
+            height: 140px;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <p id="output">Get a Colourful Message!</p>
+    <form action="">
+        <div>
+            <label for="name">Name: </label>
+            <input type="text" name="name" id="name" value="" placeholder="enter your name">
+        </div>
+        <div>
+            <label for="color">Favourite Color: </label>
+            <select name="color" id="color">
+                <option value="red">red</option>
+                <option value="orange">orange</option>
+                <option value="green">green</option>
+                <option value="blue">blue</option>
+                <option value="purple">purple</option>
+                <option value="pink">pink</option>
+                <option value="none">none of the above</option>
+            </select>
+        </div>
+        <div>
+            <button type="button" id="showMsg">Show Message</button>
+        </div>
+    </form>
+    <script src="greeting.js"></script>
+</body>
+</html>
